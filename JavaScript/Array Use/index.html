@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e5640549ae.js" crossorigin="anonymous"></script>
+    <title>E-Bank</title>
+  </head>
+  <body>
+    <div class="box1">
+    </div>
+      <div class="container">
+        <div class="img">
+          <h1><span class = "header">E</span>-Bank</h1>
+        </div>
+        <div class="box">
+          <form class="login">
+            <input
+            type="text"
+            placeholder="User Code"
+            class="login-input login-input-user" 
+            />
+         
+          </div>
+          <!-- In practice, use type="password" -->
+          <div class="box">
+            <input
+            type="password"
+            placeholder="Pin"
+            class="login-input login-input-password"
+            
+            />
+          </div>
+          <button class="login-btn">Login Now!</button>
+          <p class = "error"></p>
+          
+        </form>
+      </div>
+      <nav class = "app-nav">
+          <div class = "welcome"><h2>Good Morning,<span class = "username"></span> </h2></div>
+            <div><h2><span class = "header">E</span>-Bank</h2></div>
+            <div><button class="exit">Exit</button></div>
+      </nav>
+
+      <section class = "app-body">
+      
+        <div class="container2">
+          <div class="deposit-money">
+            <p>Deposit Money</p>
+              <label for="deposit">Amount:</label>
+              <input type="text" id="deposit" class= "deposit-input">
+              <button class= "deposit-btn">Deposit</button>
+          </div>
+          <div class="transfer-money">
+            <p>Transfer Money:</p>
+              <label for="transfer-to">To&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label>
+              <input type="text" id="transfer-to" class = "transfer-input-to"><br>
+              <label for="transfer">Amount:</label>
+              <input type="text" id="transfer" class = "transfer-input">
+              <button class= "transfer-btn">Transfer</button>
+          </div>
+          <div class="loan-money">
+            <p>Withdraw</p>
+              <label for="withdraw">Amount:</label>
+              <input type="text" id="withdraw" class = "withdraw-input">
+              <button class= "withdraw-btn">Withdraw</button>
+            </div>
+        </div>
+
+<div class="flex">
+  <div class="information">
+    <p class="display">Total Deposits: <span class= "deposit-display"></span></p>
+    <p class="display">Total Withdrawals: <span class = "withdrawal-display"></span></p>
+    <p class="display">Current balance: <span class= "balance">s</span></p>
+    <p class="display">Interest Rate: <span class = "interest"></span></p>
+    <p class="display">Interest Amount: <span class = "interest-amount"></span></p>
+    
+  </div>
+  <div class="combo">
+    <div class="deposit-section">
+      <h3>Deposits</h3>
+      <div class="deposit">
+        <div class="movement movement-deposit">
+          <p class = "deposit-amount">1. Rs. 5000</p>
+          <p class="deposit-date">3 days ago</p>
+        </div>
+        <div class="movement movement-deposit">
+          <p class = "deposit-amount">1. Rs. 5000</p>
+          <p class="deposit-date">3 days ago</p>
+        </div>
+        <div class="movement movement-deposit">
+          <p class = "deposit-amount">1. Rs. 5000</p>
+          <p class="deposit-date">3 days ago</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="withdrawal-section">
+      <h3>Withdrawals</h3>
+      <div class="withdrawal">
+        <div class="movement movement-withdrawal">
+          <p class = "withdrawal-amount">1. Rs. 5000</p>
+          <p class="withdrawal-date">3 days ago</p>
+        </div>
+        <div class="movement movement-withdrawal">
+          <p class = "withdrawal-amount">1. Rs. 5000</p>
+          <p class="withdrawal-date">3 days ago</p>
+        </div>
+        <div class="movement movement-withdrawal">
+          <p class = "withdrawal-amount">1. Rs. 5000</p>
+          <p class="withdrawal-date">3 days ago</p>
+        </div>
+      </div>
+    </div>
+    
+  </div>   
+  </div>
+</div>
+ </section>
+<script src = "script.js"></script>
+  </body>
+</html>
