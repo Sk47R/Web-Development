@@ -1,0 +1,285 @@
+body {
+  /* background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%); */
+  color: #4b4b4b;
+  margin: 0px;
+  padding: 0px;
+}
+/* Create a new account */
+
+.box1 {
+  background-color: #b34242;
+  height: 50vh;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 26px;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  /* display: none; */
+
+  position: absolute;
+  top: 150px;
+  left: 33%;
+  background-color: white;
+  padding-bottom: 28px;
+  box-shadow: 1px 1px 10px #323232;
+}
+
+.container input {
+  border: 2px solid #b34242;
+  border-radius: 0px;
+}
+
+.box {
+  padding: 10px;
+}
+
+.login-input {
+  height: 45px;
+  width: 400px;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.login-btn {
+  margin-top: 7px;
+  height: 45px;
+  width: 409px;
+  font-size: 2rem;
+  color: #b34242;
+  border-radius: 0px;
+  border: 2px solid #b34242;
+  background-color: transparent;
+  transition-property: background-color, color;
+  transition-duration: 0.6s;
+  transition-timing-function: ease;
+}
+.login-btn:hover {
+  outline: none;
+  color: #b34242;
+  background-color: #b34242;
+  color: #f3f3f3;
+  cursor: pointer;
+}
+.header {
+  color: #ac4444;
+  font-style: italic;
+}
+h1 {
+  color: #7b7979;
+  font-size: 4rem;
+}
+.welcome {
+  color: #7b7979;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+h2 {
+  font-size: 2rem;
+  color: #7b7979;
+}
+
+.exit {
+  padding: 5px;
+  width: 80px;
+  height: 35px;
+  font-size: 1.2rem;
+  background: transparent;
+  outline: none;
+  border: 3px solid #b34242;
+  border-radius: 8px;
+  color: #b34242;
+  font-weight: bold;
+  cursor: pointer;
+  transition-property: background, color;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+.exit:hover {
+  background-color: #b34242;
+  color: #ffff;
+}
+
+/* Css for the deposit coloum */
+
+.combo {
+  /* border: 2px solid black; */
+  border-radius: 1rem;
+  width: 45%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid red; */
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  overflow: scroll;
+}
+
+.movement {
+  display: flex;
+  border: 1px solid rgb(138, 137, 137);
+  margin: 2px;
+  border-radius: 8px;
+}
+.movement-deposit {
+  border: 2px solid #1d911d;
+  padding: 10px;
+  font-size: 18px;
+  /* border: 2px solid black; */
+}
+.movement-withdrawal {
+  border: 2px solid #b34242;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.deposit-section > h3 {
+  /* border: 2px solid red; */
+  margin-left: 8px;
+  color: #1d911d;
+  font-size: 1.6rem;
+}
+.withdrawal-section > h3 {
+  /* border: 2px solid red; */
+  margin-left: 8px;
+  color: #b34242;
+  font-size: 1.6rem;
+}
+
+.deposit-date,
+.withdrawal-date,
+.loan-date {
+  padding-left: 100px;
+}
+
+.container2 {
+  /* border: 2px solid black; */
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 100px;
+  margin-left: 100px;
+  font-size: 18px;
+}
+
+.app-nav {
+  display: none;
+}
+
+.app-body {
+  display: none;
+}
+
+.information {
+  border: 2px solid #4b4b4b;
+  width: 350px;
+  margin: auto;
+  margin-top: 100px;
+  color: #4b4b4b;
+  padding-left: 26px;
+  box-shadow: 10px 10px rgb(144, 144, 144, 1);
+  border-radius: 9px;
+}
+
+.display {
+  font-size: 1.5rem;
+}
+
+.deposit-money {
+  border: 2px solid #1d911d;
+  border-radius: 9px;
+  padding-left: 7px;
+  padding-right: 7px;
+  font-size: 19px;
+  padding-top: 16px;
+}
+.deposit-money > p {
+  margin-bottom: 22px;
+}
+input {
+  height: 30px;
+  font-size: 18px;
+  border-radius: 8px;
+  border: 2px solid #7b7979;
+}
+
+.transfer-money {
+  border: 2px solid #7253ce;
+  border-radius: 9px;
+  padding-left: 7px;
+  padding-right: 7px;
+  font-size: 19px;
+  padding-bottom: 14px;
+}
+
+.loan-money {
+  border: 2px solid #b34242;
+  border-radius: 9px;
+  padding-left: 7px;
+  padding-right: 7px;
+  font-size: 19px;
+  padding-top: 16px;
+}
+.loan-money > p {
+  margin-bottom: 22px;
+}
+
+.deposit-btn {
+  margin-left: 20px;
+  background-color: #1d911d;
+  color: white;
+  border: 3px solid #1d911d;
+  height: 30px;
+  font-size: 18px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.transfer-btn {
+  margin-left: 20px;
+  background-color: #7253ce;
+  color: white;
+  border: 3px solid #7253ce;
+  height: 30px;
+  font-size: 18px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.withdraw-btn {
+  margin-left: 20px;
+  background-color: #b34242;
+  color: white;
+  border: 3px solid #b34242;
+  height: 30px;
+  font-size: 18px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.transfer-input {
+  margin-top: 10px;
+}
+
+.flex {
+  display: flex;
+}
+
+.error {
+  color: red;
+  font-size: 18px;
+}
