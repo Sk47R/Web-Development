@@ -1,0 +1,25 @@
+.container {
+  border: 2px solid black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #222326;
+}
+
+.container-2 {
+  background: #282b2e;
+  width: 500px;
+  padding: 20px;
+  border-radius: 20px;
+}
+.header {
+  font-size: 2rem;
+  margin-top: 10px;
+}
+.content {
+  background: #4b4b4b;
+  border-radius: 10px;
+  margin: 8px;
+  margin-top: 20px;
+}
