@@ -1,4 +1,4 @@
-What is OOP?
+## What is OOP?
 
 It is a programming paradigm based on the concept of objects.
 
