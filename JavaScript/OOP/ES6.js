@@ -32,10 +32,10 @@ person1.calcAge();
 // Note that there is no comma between the two methods.
 
 
-### Note: Something we need to know about ES6 classes:
+// Note: Something we need to know about ES6 classes:
 
-→ Classes are not hoisted i.e. like function declaration we cannot use classes before they are declared.
+// 1. Classes are not hoisted i.e. like function declaration we cannot use classes before they are declared.
 
-→ Classes are first-class citizes. As classes are special type of function. So we can pass classes into function and return them from the function.
+// 2. Classes are first-class citizes. As classes are special type of function. So we can pass classes into function and return them from the function.
 
-→ classes are executed in strict mode
+// 3. classes are executed in strict mode
