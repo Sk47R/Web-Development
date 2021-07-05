@@ -30,4 +30,5 @@ paradigm → style of code, "how" we write and organize code.
 Prototype is a mechanism in which the objects of JavaScript are allowed to inherit certain features from the constructor. The objects of JavaScript are linked to a prototype Object.
 
 **Prototypal inheritance:** The prototype contains methods (behaviour) that are accessible to all objects linked to that prototype. This type of inheritance is called prototypal inheritance. Prototypal inheritance is not the same as the noraml inheritance.
+
 **Prototype Chain** : Series of links between objects, linked through prototypes( similar to the scope chain in JavaScript).
