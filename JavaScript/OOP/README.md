@@ -32,3 +32,22 @@ Prototype is a mechanism in which the objects of JavaScript are allowed to inher
 **Prototypal inheritance:** The prototype contains methods (behaviour) that are accessible to all objects linked to that prototype. This type of inheritance is called prototypal inheritance. Prototypal inheritance is not the same as the noraml inheritance.
 
 **Prototype Chain** : Series of links between objects, linked through prototypes( similar to the scope chain in JavaScript).
+
+
+## Three ways of implementing prototypal inheritance in JavaScript:
+1. Constructor function
+
+    → Technique to create objects from a function.
+
+    → This is how built-in objects like arrays, maps or sets are actually implemented.
+
+2. ES6 Classes
+
+    → Modern alternative to constructor function syntax.
+
+    → ES6 classes do not behave like classes in "classical OOP" 
+
+3. Object.create()
+
+    → The easiest and most straight forward way of linking an objext to a prototype  object.
+
