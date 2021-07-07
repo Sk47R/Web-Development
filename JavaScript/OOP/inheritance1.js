@@ -1,3 +1,6 @@
+// Inheritance in class declared using Constructor function
+
+
 // Here Human is the parent component and Student is a child component. So Student class inherits some methods from the Human class.
 
 const Human = function (firstName, birthYear) {
