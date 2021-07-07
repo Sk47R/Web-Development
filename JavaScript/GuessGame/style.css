@@ -1,0 +1,75 @@
+body {
+  background-color: #222;
+  color: rgb(227, 227, 227);
+  font-family: 'Press Start 2P', cursive;
+  margin: 0px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 28px 19px;
+  font-size: 1rem;
+  /* flex-wrap: wrap; */
+}
+
+#heading {
+  text-align: center;
+  /* border: 2px solid red; */
+  margin-top: 45px;
+  font-size: 40px;
+  letter-spacing: 0.2rem;
+}
+
+.btn {
+  height: 60px;
+  width: 165px;
+  font-size: 20px;
+  font-family: 'Press Start 2P', cursive;
+  color: rgb(35, 35, 35);
+}
+
+.display {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 169px;
+  height: 81px;
+  /* border: 2px solid red; */
+  z-index: 1;
+}
+
+#what {
+  text-align: center;
+  background-color: rgb(227, 227, 227);
+  color: rgb(35, 35, 35);
+  padding-top: 20px;
+  font-size: 60px;
+  /* width: 400px; */
+}
+
+input {
+  width: 210px;
+  height: 80px;
+  background-color: transparent;
+  border: 3px solid rgb(227, 227, 227);
+  margin-bottom: 35px;
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.lower {
+  margin-top: 100px;
+  /* border: 2px solid rgb(227, 227, 227); */
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.item-1 {
+}
+
+.item-2 {
+}
