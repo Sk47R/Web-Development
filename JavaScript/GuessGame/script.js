@@ -6,7 +6,8 @@ let ranNumber = Math.ceil(Math.random() * 10);
 let score = 10;
 let highscore = 0;
 
-btn.addEventListener('click', function () {
+btn.addEventListener('click', function (e) {
+  e.preventDefault();
   let number = Number(document.querySelector('.number').value);
 
   if (!number) {
